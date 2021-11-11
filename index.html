@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+    <title>Scroll Web</title>
+  </head>
+  <body
+    style="position: relative"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-offset="10"
+    tabindex="0"
+  >
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <i class="bi bi-boombox align-middle"></i>
+                <span class="align-middle">Scroll</span>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarBar"
+                aria-controls="navbarBar"
+                aria-expanded="true"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarBar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link active" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#comentarios" class="nav-link">Comentarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#suscribite" class="nav-link">Suscribite</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio">
+        <div 
+            class="carousel slide"
+            id="slider"
+            data-bs-ride="carousel"
+        >
+        <ol class="carousel-indicators">
+            <li
+                class="active"
+                data-bs-target="#slider"
+                data-bs-slide-to="0"            
+            ></li>
+            <li
+                class="active"
+                data-bs-target="#slider"
+                data-bs-slide-to="1"            
+            ></li>
+            <li
+                class="active"
+                data-bs-target="#slider"
+                data-bs-slide-to="2"            
+            ></li>
+        </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="212-600x300.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure, consequatur non alias vitae nam recusandae commodi at quasi nulla. Quae eum ipsa quia culpa, magnam id porro quis dignissimos?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="581-600x300.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure, consequatur non alias vitae nam recusandae commodi at quasi nulla. Quae eum ipsa quia culpa, magnam id porro quis dignissimos?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="677-600x300.jpg" alt="" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iure, consequatur non alias vitae nam recusandae commodi at quasi nulla. Quae eum ipsa quia culpa, magnam id porro quis dignissimos?</p>
+                    </div>
+                </div>
+            </div>
+            <a 
+                href="#slider"
+                class="carousel-control-prev"
+                role="button"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a 
+                href="#slider"
+                class="carousel-control-next"
+                role="button"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <main class="bg-dark text-white py-5" id="servicios">
+        <div class="container">
+            <div class="text-center py-5 h1">
+                <i class="bi bi-vinyl"></i>
+                <i class="bi bi-vinyl"></i>
+                <i class="bi bi-vinyl"></i>
+            </div>
+            <h2 class="text-center mb-5 display-4">Servicios</h2>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-4">
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam, voluptates dolor nobis inventore doloribus itaque, corrupti harum doloremque dicta perspiciatis iste dolorem consequatur voluptas ad, velit natus libero a!</p>
+                    <button class="btn btn-outline-light mb-5 mb-lg-0"> 
+                        Suscribite
+                    </button>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <img src="581-600x300.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <h3 class="lead display-6 text-center py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nesciunt facilis, aliquam rerum explicabo harum reprehenderit! Deserunt, cum, esse illum, praesentium eum pariatur qui labore blanditiis impedit porro in molestiae!</h3>
+            </div>
+        </div>
+    </main>
+
+    <section id="comentarios" class="pb-5">
+        <div class="container">
+            <div class="text-center py-5 h1">
+                <i class="bi bi-vinyl"></i>
+                <i class="bi bi-vinyl"></i>
+                <i class="bi bi-vinyl"></i>
+            </div>
+            <h2 class="lead display-4 text-center mb-5">Comentarios</h2>
+            <p class="lead text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet voluptatem, consequatur nostrum totam cumque reiciendis deleniti iste odio, dignissimos magni sapiente, minima distinctio similique in illum! Culpa, soluta suscipit.</p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="84-200x300.jpg" alt="" class="img-fluid rounded mb-5 mb-md-0">
+                </div>
+                <div class="col-12 col-md-6 col-lg-8 col-xl-9">
+                    <div class="accordion" id="contenedor-principal">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="cabecera-uno">
+                                <button 
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-uno"
+                                    aria-expanded="true"
+                                    aria-controls="collapse-uno"
+                                >
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div 
+                                id="collapse-uno"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="cabecera-uno"
+                                data-bs-parent="contenedor-principal"
+                            >
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sint maxime incidunt unde non vel eaque quisquam libero animi, nesciunt inventore laudantium! Aut alias at aliquid ullam dignissimos. Tenetur, dolorum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="cabecera-dos">
+                                <button 
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-dos"
+                                    aria-controls="collapse-dos"
+                                >
+                                Accordion Item #2
+                                </button>
+                            </h2>
+                            <div 
+                                id="collapse-dos"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="cabecera-dos"
+                                data-bs-parent="contenedor-principal"
+                            >
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sint maxime incidunt unde non vel eaque quisquam libero animi, nesciunt inventore laudantium! Aut alias at aliquid ullam dignissimos. Tenetur, dolorum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="cabecera-tres">
+                            <button 
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapse-tres"
+                                aria-controls="collapse-tres"
+                            >   
+                            Accordion Item #3
+                            </button>
+                        </h2>
+                        <div 
+                            id="collapse-tres"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="cabecera-tres"
+                            data-bs-parent="contenedor-principal"
+                        >
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sint maxime incidunt unde non vel eaque quisquam libero animi, nesciunt inventore laudantium! Aut alias at aliquid ullam dignissimos. Tenetur, dolorum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="suscribite" class="bg-secondary text-light pb-5">
+        <div class="container">
+            <div class="text-center h1 text-light py-5">
+                <i class="bi bi-vinyl"></i>
+                <i class="bi bi-vinyl"></i>
+                <i class="bi bi-vinyl"></i>
+            </div>
+            <h2 class="lead display-4 text-light text-center py-5">Suscribite</h2>
+            <p class="lead text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quo non labore veniam voluptas, beatae voluptates alias blanditiis hic vel temporibus quasi explicabo neque repellat nobis fugiat, sit, quidem ut.</p>
+            <div class="row text-center">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-text text-dark py-5">
+                                $100
+                            </h2>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                        </ul>
+                        <div class="card-body">
+                            <button
+                                class="btn btn-outline-dark"
+                                type="button"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal1"
+                            >
+                                Suscribirse
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-text text-dark py-5">
+                                $300
+                            </h2>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                        </ul>
+                        <div class="card-body">
+                            <button
+                                class="btn btn-outline-dark"
+                                type="button"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal2"
+                            >
+                                Suscribirse
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-text text-dark py-5">
+                                $500
+                            </h2>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                        </ul>
+                        <div class="card-body">
+                            <button
+                                class="btn btn-outline-dark"
+                                type="button"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal3"
+                            >
+                                Suscribirse
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div 
+        class="modal fade"
+        id="modal1"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel1"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">
+                        Modal Title 1
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    >
+                    </button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                    >
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div 
+        class="modal fade"
+        id="modal2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel2"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">
+                        Modal Title 2
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    >
+                    </button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                    >
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div 
+        class="modal fade"
+        id="modal3"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel3"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel3">
+                        Modal Title 3
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    >
+                    </button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                    >
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-light bg-dark py-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid nobis, voluptatem esse saepe dolor maiores, adipisci officia ullam ducimus cumque, debitis perspiciatis nihil unde praesentium tempora quae dignissimos? Esse.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
